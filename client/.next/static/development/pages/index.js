@@ -743,7 +743,63 @@ function HomePage() {
       lineNumber: 11,
       columnNumber: 9
     }
-  }));
+  }), __jsx("div", {
+    className: "outer",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 9
+    }
+  }, __jsx("section", {
+    className: "section",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: "container",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14,
+      columnNumber: 17
+    }
+  }, __jsx("div", {
+    className: "Columns",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 21
+    }
+  }, __jsx("div", {
+    className: "column",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 25
+    }
+  }, __jsx("h2", {
+    className: "title is-4",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 29
+    }
+  }, "hallo wie gehts?"), __jsx("h3", {
+    className: "title is-2",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 29
+    }
+  }, "asdfasdfasd")))))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (HomePage);

@@ -9,6 +9,20 @@ function HomePage() {
         </Head>
 
         <Navbar />
+        <div className="outer">
+            <section className="section">
+                <div className="container">
+                    <div className="Columns">
+                        <div className="column">
+                            <h2 className="title is-4">
+                                hallo wie gehts?
+                            </h2>
+                            <h3 className="title is-2">asdfasdfasd</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
 
       
 

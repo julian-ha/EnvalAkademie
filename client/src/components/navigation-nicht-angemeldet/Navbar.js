@@ -56,7 +56,7 @@ class Navigation extends Component {
                   <div className="navbar-dropdown">
                     <hr className="navbar-divider" />
                     <a className="navbar-item" href="#">
-                      Angular The React Way
+                      Daniel
                     </a>
                   </div>
                 </div>

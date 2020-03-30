@@ -14,7 +14,7 @@ class Navigation extends Component {
   render() {
     return (
       <div>
-        <div className="Navigation-outter">
+        <div className="Navigation-outter is-vcentered">
           <nav
             className="navbar"
             aria-label="main navigation"
@@ -29,7 +29,6 @@ class Navigation extends Component {
                   width="100px"
                   alt=""
                 />
-                <span>Akademie</span>
               </a>
               <button className="button navbar-burger" onClick={this.toggleNav}>
                 <span></span>

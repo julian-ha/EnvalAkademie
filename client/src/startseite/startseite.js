@@ -1,5 +1,5 @@
 import React from "react";
-import "./Startseite.css";
+import "./startseite.css";
 // import Button from "./components/button";
 // import Inputfield from "./components/input";
 

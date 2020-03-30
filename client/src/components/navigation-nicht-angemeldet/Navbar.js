@@ -36,7 +36,7 @@ class Navigation extends Component {
                   width="30px"
                   alt=""
                 />
-                <span>AaronKlaser.com</span>
+                <span>Akademie</span>
               </a>
               <button className="button navbar-burger" onClick={this.toggleNav}>
                 <span></span>

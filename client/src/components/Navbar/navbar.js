@@ -69,10 +69,10 @@ class Navbar extends Component{
 
 
                   <div className="buttons">
-                    <a className="button is-primary">
+                    <a className="button">
                       <strong>Registrieren</strong>
                     </a>
-                    <a className="button is-light">
+                    <a className="button is-link">
                       <strong>Login</strong>
                     </a>
                   </div>

@@ -1,5 +1,22 @@
 import React, { Component } from "react";
+import "react-bulma-components/dist/react-bulma-components.min.css";
+import Navbar from "react-bulma-components/dist/react-bulma-components.min.css";
+
 import "./Navigation.css";
+
+const colors = {
+  Default: "",
+  primary: "primary",
+  info: "info",
+  danger: "danger",
+  warning: "warning",
+  success: "success",
+  white: "white",
+  black: "black",
+  light: "light",
+  dark: "dark",
+  link: "link"
+};
 
 class Navigation extends Component {
   state = {
@@ -12,64 +29,7 @@ class Navigation extends Component {
     }));
   };
   render() {
-    return (
-      <div>
-        <div className="Navigation-outter is-vcentered">
-          <nav
-            className="navbar"
-            aria-label="main navigation"
-            // style={{
-            //   borderBottom: "solid 1px #dddddd"
-            // }}
-          >
-            <div className="navbar-brand">
-              <a href="#" className="navbar-item">
-                <img
-                  src="https://enval.de/images/logo_slogan.svg"
-                  width="100px"
-                  alt=""
-                />
-              </a>
-              <button className="button navbar-burger" onClick={this.toggleNav}>
-                <span></span>
-                <span></span>
-                <span></span>
-              </button>
-            </div>
-            <div
-              className={
-                this.state.isActive ? "navbar-menu is-active" : "navbar-menu"
-              }
-            >
-              <div className="navbar-start">
-                <a className="navbar-item" href="#">
-                  Code Blog
-                </a>
-                <a className="navbar-item" href="#">
-                  Medium
-                </a>
-                <div className="navbar-item has-dropdown is-hoverable">
-                  <a className="navbar-link" href="#">
-                    Projects
-                  </a>
-                  <div className="navbar-dropdown">
-                    <hr className="navbar-divider" />
-                    <a className="navbar-item" href="#">
-                      Daniel
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="navbar-end">
-                <a className="navbar-item button is-primary" href="#">
-                  Resume
-                </a>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </div>
-    );
+    return <h1>Hallo</h1>;
   }
 }
 

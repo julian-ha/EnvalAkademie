@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -219,7 +219,7 @@ class Loginform extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\JulianHa\\Desktop\\Projects\\EnvalAkademie\\client\\src\\components\\Navbar\\navbar.js";
+var _jsxFileName = "C:\\Users\\Daniel\\Documents\\projekte\\Akademie\\EnvalAkademie\\client\\src\\components\\Navbar\\navbar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -729,9 +729,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_Navbar_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Navbar/navbar */ "./src/components/Navbar/navbar.js");
+<<<<<<< HEAD
 /* harmony import */ var _components_LoginForm_loginform__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/LoginForm/loginform */ "./src/components/LoginForm/loginform.js");
 /* harmony import */ var _components_RegisterForm_registerform__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/RegisterForm/registerform */ "./src/components/RegisterForm/registerform.js");
 var _jsxFileName = "C:\\Users\\JulianHa\\Desktop\\Projects\\EnvalAkademie\\client\\src\\pages\\index.js";
+=======
+var _jsxFileName = "C:\\Users\\Daniel\\Documents\\projekte\\Akademie\\EnvalAkademie\\client\\src\\pages\\index.js";
+>>>>>>> 23e5bf38c8b57caefdb71360d85c8805abd0a2e4
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -836,14 +840,14 @@ class HomePage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!**********************************!*\
   !*** multi ./src/pages/index.js ***!
   \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\JulianHa\Desktop\Projects\EnvalAkademie\client\src\pages\index.js */"./src/pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Daniel\Documents\projekte\Akademie\EnvalAkademie\client\src\pages\index.js */"./src/pages/index.js");
 
 
 /***/ }),

@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/button';
+import Inputfield from './components/input';
 
 function App() {
   return (
@@ -18,6 +20,11 @@ function App() {
         >
           Learn React
         </a>
+        <Button id="btn" class="is-link" name="test" innerhtml="Hallo Welt" />
+        <Inputfield  id="oxoferimasdf"/>
+        <Inputfield  id="oxoferimasdf"/>
+        <Inputfield  id="oxoferimasdf"/>
+        <Inputfield  id="oxoferimasdf"/>
       </header>
     </div>
   );

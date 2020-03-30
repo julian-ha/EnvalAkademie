@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Navbar from '../components/navbar';
+import Navbar from '../components/Navbar/navbar';
 
 function HomePage() {
     return (
@@ -7,7 +7,7 @@ function HomePage() {
         <Head>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"></link>
         </Head>
-        
+
         <Navbar />
 
       

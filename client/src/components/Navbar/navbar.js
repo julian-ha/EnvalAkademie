@@ -19,7 +19,7 @@ class Navbar extends Component{
             <div id="navbarBasicExample" className="navbar-menu">
               <div className="navbar-start">
                 <a className="navbar-item">
-                  Home
+                  Kurse
                 </a>
           
                 <a className="navbar-item">
@@ -51,12 +51,29 @@ class Navbar extends Component{
           
               <div className="navbar-end">
                 <div className="navbar-item">
+
+                <div className="navbar-item">
+                  <div>   
+                      <div className=" field has-addons">
+                          <div className="control">
+                              <input className="input" type="text" placeholder="Finde einen Kurs..." />
+                          </div>
+                          <div className="control">
+                              <a className="button is-link">
+                              <strong>Suchen</strong>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
                   <div className="buttons">
                     <a className="button is-primary">
-                      <strong>Sign up</strong>
+                      <strong>Registrieren</strong>
                     </a>
                     <a className="button is-light">
-                      Log in
+                      <strong>Login</strong>
                     </a>
                   </div>
                 </div>

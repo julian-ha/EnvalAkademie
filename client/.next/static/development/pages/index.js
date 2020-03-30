@@ -377,10 +377,10 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 
 /***/ }),
 
-/***/ "./src/components/navbar.js":
-/*!**********************************!*\
-  !*** ./src/components/navbar.js ***!
-  \**********************************/
+/***/ "./src/components/Navbar/navbar.js":
+/*!*****************************************!*\
+  !*** ./src/components/Navbar/navbar.js ***!
+  \*****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -388,7 +388,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\JulianHa\\Desktop\\Projects\\EnvalAkademie\\client\\src\\components\\navbar.js";
+var _jsxFileName = "C:\\Users\\JulianHa\\Desktop\\Projects\\EnvalAkademie\\client\\src\\components\\Navbar\\navbar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -493,7 +493,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 21,
         columnNumber: 17
       }
-    }, "Home"), __jsx("a", {
+    }, "Kurse"), __jsx("a", {
       className: "navbar-item",
       __self: this,
       __source: {
@@ -582,11 +582,75 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 17
       }
     }, __jsx("div", {
+      className: "navbar-item",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 55,
+        columnNumber: 17
+      }
+    }, __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56,
+        columnNumber: 19
+      }
+    }, __jsx("div", {
+      className: " field has-addons",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57,
+        columnNumber: 23
+      }
+    }, __jsx("div", {
+      className: "control",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58,
+        columnNumber: 27
+      }
+    }, __jsx("input", {
+      className: "input",
+      type: "text",
+      placeholder: "Finde einen Kurs...",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59,
+        columnNumber: 31
+      }
+    })), __jsx("div", {
+      className: "control",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61,
+        columnNumber: 27
+      }
+    }, __jsx("a", {
+      className: "button is-link",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 31
+      }
+    }, __jsx("strong", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 31
+      }
+    }, "Suchen")))))), __jsx("div", {
       className: "buttons",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 54,
+        lineNumber: 71,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -594,25 +658,32 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55,
+        lineNumber: 72,
         columnNumber: 21
       }
     }, __jsx("strong", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56,
+        lineNumber: 73,
         columnNumber: 23
       }
-    }, "Sign up")), __jsx("a", {
+    }, "Registrieren")), __jsx("a", {
       className: "button is-light",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
+        lineNumber: 75,
         columnNumber: 21
       }
-    }, "Log in"))))));
+    }, __jsx("strong", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 76,
+        columnNumber: 23
+      }
+    }, "Login")))))));
   }
 
 }
@@ -634,7 +705,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/navbar */ "./src/components/navbar.js");
+/* harmony import */ var _components_Navbar_navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Navbar/navbar */ "./src/components/Navbar/navbar.js");
 var _jsxFileName = "C:\\Users\\JulianHa\\Desktop\\Projects\\EnvalAkademie\\client\\src\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -665,7 +736,7 @@ function HomePage() {
       lineNumber: 8,
       columnNumber: 13
     }
-  })), __jsx(_components_navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  })), __jsx(_components_Navbar_navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,

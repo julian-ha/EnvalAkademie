@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bulma": "^0.8.1",
     "next": "^9.3.3",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "office-ui-fabric-core": "^11.0.0",
     "office-ui-fabric-react": "^7.105.4",
     "react": "^16.13.1",
